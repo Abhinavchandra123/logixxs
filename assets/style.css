@@ -40,6 +40,8 @@ span.second{
 }
 .perag{
     text-align: justify;
+    
+    
 }
 .talking{
     color: #ffffff;
@@ -88,7 +90,12 @@ span.second{
     .icon img {
         margin-inline: 1rem;
       }
-    
+    .perag{
+    padding: 2rem;
+    }
+    .icon{
+        width: 100px;
+    }
   }
   @media (min-width: 268px) and (max-width :568px) {
     .logo{
@@ -104,4 +111,10 @@ span.second{
     .icon img {
         margin-inline: 1rem;
       }
+    .perag{
+    padding: 2rem;
+    }
+    .icon{
+        width: 100px;
+    }
   }
