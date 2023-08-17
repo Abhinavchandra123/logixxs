@@ -459,19 +459,19 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #FF3414;
+  border: 1px solid #20c25f;
   letter-spacing: 3px;
   text-align: center;
-  color: #FF3414 !important;
+  color: #20c25f !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #FF3414;
+  background: #20c25f;
   color: #fff !important;
-  border: 1px solid #FF3414;
+  border: 1px solid #20c25f;
 }
 
 /* line 22, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_btn.scss */
