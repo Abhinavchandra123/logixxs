@@ -2179,8 +2179,8 @@ h3 {
 
 /* line 37, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author .thumb {
-  width: 42px;
-  height: 42px;
+  /* width: 42px;
+  height: 42px; */
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
