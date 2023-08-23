@@ -439,16 +439,16 @@
                 </div>
                 <div class="col-xl-8 col-lg-8 col-md-7">
                     <div class="form">
-                        <form action="#">
+                        <form action="getestimate.php" method="post">
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="input_field">
-                                        <input type="text" placeholder="Your name">
+                                        <input name="name" type="text" placeholder="Your name">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="input_field">
-                                        <input type="email" placeholder="Email">
+                                        <input name="email" type="email" placeholder="Email">
                                     </div>
                                 </div>
                                 <!-- <div class="col-xl-6">
@@ -493,11 +493,14 @@
                                 </div> -->
                                 <div class="col-xl-12">
                                     <div class="input_field">
-                                        <textarea placeholder="Message"></textarea>
+                                        <textarea name="message" placeholder="Message"></textarea>
                                     </div>
                                 </div>
-                                <div class="g-recaptcha" data-theme="dark" data-size="normal" data-sitekey="6Lc-4MsnAAAAAPeUTILMhJknWrA1b4RgUQckBXki"></div>
-      <br/>
+                                <div class="col-xl-12 mb-3">
+                                    <div class="g-recaptcha" data-theme="dark" data-size="normal" data-sitekey="6Lc-4MsnAAAAAPeUTILMhJknWrA1b4RgUQckBXki">
+
+                                    </div>
+                                </div>
                                 <div class="col-xl-12">
                                     <div class="input_field">
                                         <button class="boxed-btn3-line" type="submit">Get Estimate</button>
